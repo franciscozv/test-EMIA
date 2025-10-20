@@ -4,7 +4,7 @@ Aplicación simple para gestionar tareas con React + TypeScript.
 
 
 
-**URL:** [https://test-emia-1fmh-p62w7pa1w-franciscozvs-projects.vercel.app](https://test-emia-1fmh-p62w7pa1w-franciscozvs-projects.vercel.app/)
+**URL:** [https://test-emia-1fmh.vercel.app/](https://test-emia-1fmh.vercel.app/)
 
 ##  Tecnologías
 
