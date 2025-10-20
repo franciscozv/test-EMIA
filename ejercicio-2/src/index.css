@@ -1,3 +1,4 @@
+/* Reset simple */
 * {
   margin: 0;
   padding: 0;
@@ -6,36 +7,85 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
-}
-
-button {
-  cursor: pointer;
-  border: 1px solid #ccc;
-  background-color: white;
-}
-
-button:hover {
   background-color: #f0f0f0;
+  padding: 20px;
 }
 
-button:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-
-input[type="text"] {
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-input[type="text"]:focus {
-  outline: 2px solid #0066cc;
-}
-
+/* Contenedor principal */
 .app {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Título */
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Error */
+.error {
+  background: #ffcccc;
+  color: #cc0000;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Formulario */
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form button {
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background: #0056b3;
+}
+
+/* Loading y Empty */
+.loading,
+.empty {
+  text-align: center;
+  padding: 30px;
+  color: #666;
+}
+
+.task {
+  padding: 15px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.task span {
+  color: #333;
+}
+
+.task span.completada {
+  text-decoration: line-through;
+  color: #999;
 }
