@@ -18,8 +18,8 @@ Aplicación simple para gestionar tareas con React + TypeScript.
 
 ```bash
 # Clonar
-git clone https://github.com/TU-USUARIO/app-tareas.git
-cd app-tareas
+git clone https://github.com/franciscozv/test-EMIA.git
+cd ejercicio-2
 
 # Instalar
 npm install
